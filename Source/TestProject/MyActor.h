@@ -9,8 +9,9 @@ class TESTPROJECT_API AMyActor : public AActor
 {
 	GENERATED_BODY()
 	
-public:	
-	// Sets default values for this actor's properties
+public:
 	AMyActor();
+
+	virtual void BeginPlay() override;
 
 };
